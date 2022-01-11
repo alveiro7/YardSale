@@ -1,0 +1,40 @@
+* {
+    background:papayawhip;
+}
+
+.title {
+    background: plum;
+/*     color: blue; */
+}
+
+.title:hover {
+    color: red;
+}
+
+#list {
+    outline: dashed red 2px;
+    background: royalblue;
+}
+
+li::before{
+    content: "⭐";
+}
+
+li:hover::before {
+    content: "💅🏻";
+}
+
+a[href="https://www.instagram.com/tommypiconefotografo/"] {
+    color: seagreen;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.ok {
+    color: #1a73e8;
+}
+
+.ok:active {
+    color: #1557ad;
+}
